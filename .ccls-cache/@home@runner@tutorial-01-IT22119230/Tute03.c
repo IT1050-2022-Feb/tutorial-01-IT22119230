@@ -14,7 +14,7 @@ sum = 1+2+3+...+10 = 55 */
 int main() {
   int n,i,sum=0;
 
-  printf("Enter the number:");
+  printf("Enter the number");
   scanf("%d",&n);
 
   for(i=1; i<=n; i++)
@@ -23,5 +23,5 @@ int main() {
     }
   printf("sum = %d", sum);
   return 0;
-  }
+}
 
